@@ -1539,3 +1539,36 @@ footer em {
     transform: none;
   }
 }
+
+/* Legal page overlays */
+.legal-card {
+  width: min(920px, calc(100vw - 2rem));
+  max-height: min(88vh, 900px);
+  overflow-y: auto;
+}
+.legal-inner {
+  text-align: left;
+  padding: clamp(1.5rem, 4vw, 3.5rem);
+}
+.legal-inner .modal-title {
+  text-align: left;
+  margin-bottom: 0.35rem;
+}
+.legal-updated {
+  font-size: 0.82rem;
+  opacity: 0.7;
+  margin-bottom: 1.5rem;
+}
+.legal-inner h3 {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.05rem;
+}
+.legal-inner p {
+  line-height: 1.75;
+  margin: 0 0 0.85rem;
+}
+.legal-inner a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
